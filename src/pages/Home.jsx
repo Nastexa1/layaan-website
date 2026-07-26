@@ -103,7 +103,7 @@ export default function Home() {
     <div className="bg-white text-[#0A192F]">
       <section id="home" className="relative scroll-mt-20 overflow-hidden">
         <img
-          src="/hero-abaya.png"
+          src={`${import.meta.env.BASE_URL}hero-abaya.png`}
           alt="Cabayo Layaan — Softness and Elegance"
           className="animate-soft-scale absolute inset-0 h-full w-full object-cover object-[center_20%]"
         />
@@ -192,7 +192,7 @@ export default function Home() {
           <div className="order-1 md:order-2">
             <div className="overflow-hidden rounded-2xl">
               <img
-                src="/about-abaya.png"
+                src={`${import.meta.env.BASE_URL}about-abaya.png`}
                 alt="Cabayo bunni ah oo qurux badan"
                 className="h-[420px] w-full object-cover object-top transition duration-700 hover:scale-105 md:h-[520px]"
               />
@@ -358,7 +358,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 md:flex-row">
           <a href="#home" className="flex items-center">
             <img
-              src="/logo.png"
+              src={`${import.meta.env.BASE_URL}logo.png`}
               alt="Layaan"
               className="h-12 w-auto object-contain"
             />
